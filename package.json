@@ -1,0 +1,43 @@
+{
+  "name": "karma-chai-lodash",
+  "description": "Chai Lodash for Karma",
+  "scripts": {
+    "pretest": "eslint . --ignore-path .gitignore",
+    "test": "node node_modules/karma/bin/karma start"
+  },
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "karma-framework",
+    "chai",
+    "chai-fuzzy"
+  ],
+  "version": "0.0.2",
+  "author": {
+    "name": "Morris Singer",
+    "email": "morrissinger@gmail.com"
+  },
+  "main": "./index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/morrissinger/karma-chai-lodash",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morrissinger/karma-chai-lodash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/morrissinger/karma-chai-lodash/issues"
+  },
+  "dependencies": {
+    "chai": "^3.0.0",
+    "chai-lodash": "^1.0.4",
+    "karma-chai": "^0.1.0",
+    "lodash": "^3.9.0"
+  },
+  "devDependencies": {
+    "karma": "0.12.36",
+    "karma-mocha": "0.1.10",
+    "karma-phantomjs-launcher": "0.2.0",
+    "karma-spec-reporter": "0.0.19",
+    "phantomjs": "1.9.17"
+  }
+}
